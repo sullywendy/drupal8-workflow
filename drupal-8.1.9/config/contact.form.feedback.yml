@@ -1,0 +1,12 @@
+uuid: 71f7daf9-76d1-46ea-9b2b-74edd1413881
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - sullywendy@gmail.com
+reply: ''
+weight: 0

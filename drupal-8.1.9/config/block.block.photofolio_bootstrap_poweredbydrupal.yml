@@ -1,0 +1,20 @@
+uuid: f25577e0-36b4-4b31-881a-315ddc09eadd
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - photofolio_bootstrap
+id: photofolio_bootstrap_poweredbydrupal
+theme: photofolio_bootstrap
+region: '-1'
+weight: -3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

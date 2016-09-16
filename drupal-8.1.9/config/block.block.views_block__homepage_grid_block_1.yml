@@ -1,0 +1,30 @@
+uuid: ef328557-35c2-4bc6-bd8a-3d76afda94dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.homepage_grid
+  module:
+    - system
+    - views
+  theme:
+    - photofolio_bootstrap
+id: views_block__homepage_grid_block_1
+theme: photofolio_bootstrap
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:homepage_grid-block_1'
+settings:
+  id: 'views_block:homepage_grid-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

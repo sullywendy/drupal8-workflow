@@ -1,0 +1,20 @@
+uuid: 403b3a0c-8dff-48b8-82de-175e306a3e1d
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - photofolio_bootstrap
+id: mainpagecontent
+theme: photofolio_bootstrap
+region: '-1'
+weight: 2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: visible
+visibility: {  }

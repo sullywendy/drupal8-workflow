@@ -1,0 +1,20 @@
+uuid: be3f2a6a-60d8-4c1e-9a46-e9fe33909b23
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format restricted_html'
+  - 'access comments'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'create article content'
+  - 'edit any article content'
+  - 'edit own article content'
+  - 'view files'

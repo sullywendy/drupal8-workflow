@@ -1,0 +1,18 @@
+uuid: da00b8ae-7841-4bdf-a3c9-8cb6ce099093
+langcode: en
+status: true
+dependencies:
+  theme:
+    - photofolio_bootstrap
+id: photofolio_bootstrap_pagetitle
+theme: photofolio_bootstrap
+region: header
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

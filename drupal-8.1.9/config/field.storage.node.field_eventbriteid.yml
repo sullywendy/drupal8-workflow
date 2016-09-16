@@ -1,0 +1,20 @@
+uuid: 11e5ff0d-1018-4bb0-9cb8-0614e1c973ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_eventbriteid
+field_name: field_eventbriteid
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

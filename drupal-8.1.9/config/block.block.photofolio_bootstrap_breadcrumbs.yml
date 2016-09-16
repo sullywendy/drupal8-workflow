@@ -1,0 +1,22 @@
+uuid: 82cb754b-b5b5-45f1-bed1-6044fd282968
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - photofolio_bootstrap
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: photofolio_bootstrap_breadcrumbs
+theme: photofolio_bootstrap
+region: '-1'
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

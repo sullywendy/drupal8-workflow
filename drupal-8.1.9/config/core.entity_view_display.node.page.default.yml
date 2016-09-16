@@ -1,0 +1,36 @@
+uuid: 030b5c0c-5ff5-49b7-aedc-764dd226c458
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_eventbriteid
+    - node.type.page
+  module:
+    - eventbrite_formatter
+    - text
+    - user
+_core:
+  default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+  field_eventbriteid:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: event_brite_field_formatter
+  links:
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

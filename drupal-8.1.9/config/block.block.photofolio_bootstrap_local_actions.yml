@@ -1,0 +1,20 @@
+uuid: 5288af8c-867d-43d8-a8af-a6821425ce56
+langcode: en
+status: true
+dependencies:
+  theme:
+    - photofolio_bootstrap
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: photofolio_bootstrap_local_actions
+theme: photofolio_bootstrap
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
