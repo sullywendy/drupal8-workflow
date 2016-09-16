@@ -1,0 +1,5 @@
+name: EventBrite Formatter
+type: module
+description: EventBrite field formatter to turn an ID into an EventBrite form
+core: 8.x
+package: Custom

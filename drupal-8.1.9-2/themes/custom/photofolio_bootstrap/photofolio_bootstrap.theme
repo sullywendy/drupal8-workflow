@@ -1,0 +1,27 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+
+function photofolio_bootstrap_preprocess_page_title(&$variables) {
+	if ($node = \Drupal::routeMatch()->getParameter('node')) {
+		if ($node->getType()=='article') {
+			
+			//Create a variable for the author's username
+			$author = $node->getOwner();
+			$variables['username'] = $author->getUsername();
+			
+			//Create a variable for the date
+			$date = $node->getCreatedTime();
+			$variables['published_date'] = format_date($date, 'long');
+			/* kint($author);*/
+			
+		}
+    } 
+}
+
+/*$variables['byline'] = t('This node was written by @username on @date', array('@username' => $author->getUsername(), '@date' =>format_date($date, 'long')));*/
